@@ -35,7 +35,7 @@ export default function Footer() {
             <div className="footer-logo">
               <Logo size={32} />
               <div className="footer-title-group">
-                <span className="footer-name">Raushan Kumar</span>
+                <span className="footer-name">Muhammad Fawwaz Perdana</span>
                 <div className="footer-signature">
                    <svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <motion.path

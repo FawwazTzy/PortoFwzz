@@ -144,8 +144,8 @@ export default function Hero() {
             <span className="mono">Available for work</span>
           </motion.div>
 
-          <h1 className="hero-name">
-            <AnimatedText text="Raushan Kumar." delay={0.2} />
+          <h1 className="hero-name text-xs">
+            <AnimatedText text="Muhammad Fawwaz Perdana." delay={0.2} />
           </h1>
 
           <motion.div
@@ -177,7 +177,7 @@ export default function Hero() {
             transition={{ delay: 0.9 }}
           >
             I craft <strong>performant, elegant web apps</strong> — from pixel-perfect
-            frontends to scalable backend systems. Based in Ahmedabad,
+            frontends to scalable backend systems. Based in Lampung,
             building for the world. 🌍
           </motion.p>
 
@@ -247,7 +247,7 @@ export default function Hero() {
           className="hero-right"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
+          transition={{ duration: 3, delay: 0.4 }}
         >
           <div className="hero-avatar-wrapper">
             <div className="hero-orbit-ring hero-orbit-ring-spin" />
@@ -285,12 +285,12 @@ export default function Hero() {
                     animate="center"
                     exit="exit"
                   >
-                    <span className="hero-avatar-initials">RK</span>
+                    <span className="hero-avatar-initials">MFP</span>
                     <div className="hero-avatar-subtitle">
                       <span className="mono">Full Stack Dev</span>
                       <span className="hero-avatar-location">
-                        <span className="gradient-text">Ahmedabad, India</span>
-                        <span className="mono"> IN</span>
+                        <span className="gradient-text">Lampung, Indonesia</span>
+                        <span className="mono">IND</span>
                       </span>
                     </div>
                   </motion.div>
