@@ -5,7 +5,6 @@ export const NAV_SECTIONS = [
   { id: 'projects', label: 'Projects' },
   { id: 'figma-designs', label: 'Figma Designs' },
   { id: 'certificates', label: 'Certificates' },
-  { id: 'hackathons', label: 'Hackathons' },
   { id: 'achievements', label: 'Achievements' },
   { id: 'contact', label: 'Contact' },
 ];
@@ -17,18 +16,17 @@ export const SECTION_NUMBERS = {
   projects: '03',
   'figma-designs': '04',
   certificates: '05',
-  hackathons: '06',
-  achievements: '07',
-  contact: '08',
+  achievements: '06',
+  contact: '07',
 };
 
 export const PERSONAL = {
-  name: 'Raushan Kumar',
+  name: 'Muhammad Fawwaz Perdana',
   title: 'Full Stack Developer',
   tagline: 'React Craftsman',
-  bio: 'I craft performant, elegant web apps — from pixel-perfect frontends to scalable backend systems. Based in Ahmedabad, building for the world.',
-  email: 'raushan.singh.cg@gmail.com',
+  bio: 'I craft performant, elegant web apps — from pixel-perfect frontends to scalable backend systems. Based in Metro-Lampung, building for the world.',
+  email: 'fawazadvan23@gmail.com',
   location: 'Ahmedabad, India',
-  resumeUrl: 'https://drive.google.com/file/d/1abrPqRQ6y7R9mHiPYWB4oSATsClXwzgZ/view?usp=sharing',
+  resumeUrl: '',
   resumeStatus: 'Updated',
 };

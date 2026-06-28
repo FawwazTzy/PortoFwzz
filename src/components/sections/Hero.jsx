@@ -271,7 +271,7 @@ export default function Hero() {
                   >
                     <img
                       src="/profile.jpg"
-                      alt="Raushan Kumar"
+                      alt="Muhammad Fawwaz Perdana"
                       className="hero-avatar-photo"
                       loading="lazy"
                     />
@@ -285,7 +285,7 @@ export default function Hero() {
                     animate="center"
                     exit="exit"
                   >
-                    <span className="hero-avatar-initials">MFP</span>
+                    <span className="hero-avatar-initials">MF</span>
                     <div className="hero-avatar-subtitle">
                       <span className="mono">Full Stack Dev</span>
                       <span className="hero-avatar-location">

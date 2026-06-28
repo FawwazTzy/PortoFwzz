@@ -9,7 +9,7 @@ import './About.css';
 const stats = [
   { label: 'Projects Built', value: '13+', icon: <FaCode /> },
   { label: 'Technologies', value: '25+', icon: <FaRocket /> },
-  { label: 'Certifications', value: '6', icon: <FaGraduationCap /> },
+  { label: 'Certifications', value: '1', icon: <FaGraduationCap /> },
 ];
 
 export default function About() {
@@ -48,8 +48,8 @@ export default function About() {
             transition={{ duration: 0.6 }}
           >
             <p className="about-intro">
-              I'm <strong>Raushan Kumar</strong>, a self-taught Full Stack Developer from
-              <strong> Ahmedabad, India</strong>. I discovered programming through curiosity
+              I'm <strong>Muhammad Fawwaz Perdana</strong>, a self-taught Full Stack Developer from
+              <strong>Metro, Lampung - Indonesia</strong>. I discovered programming through curiosity
               — and haven't stopped building since.
             </p>
             <p>
@@ -65,9 +65,9 @@ export default function About() {
             <div className="about-learning">
               <span className="about-learning-label mono">Currently learning</span>
               <div className="about-learning-tags">
-                <span className="about-tag">TypeScript</span>
-                <span className="about-tag">Docker</span>
-                <span className="about-tag">AWS</span>
+                <span className="about-tag">Mysql</span>
+                <span className="about-tag">React</span>
+                <span className="about-tag">Structure Data</span>
               </div>
             </div>
           </motion.div>
@@ -79,7 +79,7 @@ export default function About() {
               <div className="about-card-content">
                 <FaMapPin className="about-card-icon" />
                 <div>
-                  <h4>Ahmedabad, India</h4>
+                  <h4>Lampung, Indonesia.</h4>
                   <p className="about-card-sub mono" style={{ marginTop: '4px', color: 'var(--accent)' }}>
                     {liveTime}
                   </p>

@@ -61,7 +61,7 @@ export default function Logo({ size = 44 }) {
           textShadow: '0 0 4px var(--accent-glow)',
           marginLeft: '1px' // visual centering adjustment
         }}>
-          RK
+          MF
         </span>
       </div>
     </div>

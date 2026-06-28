@@ -8,7 +8,7 @@ import TechStack from './components/sections/TechStack';
 import Projects from './components/sections/Projects';
 import FigmaDesigns from './components/sections/FigmaDesigns';
 import Certificates from './components/sections/Certificates';
-import Hackathons from './components/sections/Hackathons';
+// import Hackathons from './components/sections/Hackathons';
 import Achievements from './components/sections/Achievements';
 import Contact from './components/sections/Contact';
 import Footer from './components/layout/Footer';
@@ -55,7 +55,7 @@ export default function App() {
           <Projects />
           <FigmaDesigns />
           <Certificates />
-          <Hackathons />
+          {/* <Hackathons /> */}
           <Achievements />
           <Contact />
         </main>

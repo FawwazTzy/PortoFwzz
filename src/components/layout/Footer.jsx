@@ -39,9 +39,43 @@ export default function Footer() {
                 <div className="footer-signature">
                    <svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <motion.path
-                      d="M25 40V15C25 5 50 5 50 15C50 25 25 25 35 35C40 40 45 42 60 42C55 42 55 32 60 32C65 32 65 42 70 42C75 42 75 32 80 32C85 32 85 42 90 42C95 42 95 32 105 35C115 38 100 45 115 45H125V5V45C125 35 135 25 145 35V45C145 45 150 45 155 45C150 45 150 35 155 35C160 35 160 45 155 45H165V35C165 30 175 30 175 35V45C175 45 180 48 195 48"
+                      d="
+                        M20 60
+
+                        L20 20
+                        L20 15
+                        L50 15
+                        M20 35
+                        L45 35
+
+                        C50 35 50 20 58 22
+                        C66 30 62 60 72 60
+
+                        C82 60 78 20 88 22
+                        C96 30 92 60 102 60
+
+                        C112 60 108 20 118 22
+                        C126 30 122 60 132 60
+
+                        C142 60 138 20 148 22
+                        C156 30 152 60 162 60
+
+                        C172 60 168 20 178 22
+                        C186 30 182 60 192 60
+
+                        M182 60
+                        L188 30
+                        L194 60
+
+                        M18 62
+                        Q110 68 210 62
+
+                        M178 62
+                        Q192 55 208 63
+                      "
                       stroke="var(--accent)"
                       strokeWidth="2"
+                      fill="none"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       initial={{ pathLength: 0 }}
@@ -54,7 +88,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="footer-tagline">
-              Full Stack Developer · Ahmedabad, India <br/>
+              Full Stack Developer · Lampung, Indonesia <br/>
               <span className="mono footer-time">
                 {liveTime}
               </span>
@@ -80,7 +114,7 @@ export default function Footer() {
 
           <div className="footer-right">
             <p className="footer-copy">
-              © {new Date().getFullYear()} Raushan Kumar (RK) [All rights reserved] 
+              © {new Date().getFullYear()} Muhammad Fawwaz Perdana (MF) [All rights reserved] 
             </p>
           </div>
         </div>

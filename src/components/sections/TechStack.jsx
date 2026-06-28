@@ -9,30 +9,32 @@ import './TechStack.css';
 
 gsap.registerPlugin(ScrollTrigger);
 
-function SkillBar({ name, icon: Icon, color, level, index }) {
+function SkillBar({ name, icon: Icon, color, level, status, index }) {
   const barRef = useRef(null);
 
   useEffect(() => {
-    if (barRef.current) {
-      gsap.fromTo(
-        barRef.current,
-        { scaleX: 0 },
-        {
-          scaleX: level / 100,
-          duration: 1.2,
-          ease: 'power3.out',
-          scrollTrigger: {
-            trigger: barRef.current,
-            start: 'top 85%',
-            toggleActions: 'play none none reset',
-          },
-          delay: index * 0.05,
-        }
-      );
-    }
-  }, [level, index]);
+  if (status) return;
 
-  return (
+  if (barRef.current) {
+    gsap.fromTo(
+      barRef.current,
+      { scaleX: 0 },
+      {
+        scaleX: level / 100,
+        duration: 1.2,
+        ease: 'power3.out',
+        scrollTrigger: {
+          trigger: barRef.current,
+          start: 'top 85%',
+          toggleActions: 'play none none reset',
+        },
+        delay: index * 0.05,
+      }
+    );
+  }
+}, [level, status, index]);
+
+    return (
     <motion.div
       className="skill-item"
       whileHover={{ x: 4 }}
@@ -43,18 +45,26 @@ function SkillBar({ name, icon: Icon, color, level, index }) {
           <Icon className="skill-icon" style={{ color }} />
           <span>{name}</span>
         </div>
-        <span className="skill-level mono">{level}%</span>
+
+        <span
+          className={`skill-level mono ${status ? 'skill-status' : ''}`}
+        >
+          {status || `${level}%`}
+        </span>
       </div>
-      <div className="skill-bar-track">
-        <div
-          ref={barRef}
-          className="skill-bar-fill"
-          style={{
-            background: `linear-gradient(90deg, ${color}, ${color}88)`,
-            boxShadow: `0 0 10px ${color}40`,
-          }}
-        />
-      </div>
+
+      {!status && (
+        <div className="skill-bar-track">
+          <div
+            ref={barRef}
+            className="skill-bar-fill"
+            style={{
+              background: `linear-gradient(90deg, ${color}, ${color}88)`,
+              boxShadow: `0 0 10px ${color}40`,
+            }}
+          />
+        </div>
+      )}
     </motion.div>
   );
 }
