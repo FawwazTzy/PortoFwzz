@@ -79,6 +79,7 @@ const avatarVariants = {
   },
 };
 
+
 export default function Hero() {
   const [showPhoto, setShowPhoto] = useState(true);
   const [roleIndex, setRoleIndex] = useState(0);

@@ -27,6 +27,6 @@ export const PERSONAL = {
   bio: 'I craft performant, elegant web apps — from pixel-perfect frontends to scalable backend systems. Based in Metro-Lampung, building for the world.',
   email: 'fawazadvan23@gmail.com',
   location: 'Metro - Lampung, Indonesia',
-  resumeUrl: '',
+  resumeUrl: `${import.meta.env.BASE_URL}resume.pdf`,
   resumeStatus: 'Updated',
 };
