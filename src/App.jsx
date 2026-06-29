@@ -22,27 +22,27 @@ export default function App() {
     <HelmetProvider>
       <ThemeProvider>
         <Helmet>
-          <title>Raushan Kumar | Full Stack Developer</title>
-          <meta name="description" content="Raushan Kumar — Full Stack Developer from Ahmedabad, India. Building performant, elegant web apps with React, Node.js, and MongoDB. Open to work." />
-          <meta name="keywords" content="Raushan Kumar, Full Stack Developer, React, Node.js, MongoDB, Portfolio, Ahmedabad, India, MERN Stack" />
-          <meta name="author" content="Raushan Kumar" />
+          <title>Muhammad Fawwaz Perdana | Full Stack Developer</title>
+          <meta name="description" content="Muhammad fawwaz Perdana — Full Stack Developer from Lampung, Indonesia. Building performant, elegant web apps with React, Node.js, and MongoDB. Open to work." />
+          <meta name="keywords" content="Muhammad Fawwaz Perdana, Full Stack Developer, React, Node.js, MongoDB, Portfolio, Lampung, Indonesia." />
+          <meta name="author" content="Muhammad Fawwaz Perdana" />
           <meta name="robots" content="index, follow" />
 
           {/* Open Graph */}
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="Raushan Kumar | Full Stack Developer" />
-          <meta property="og:description" content="Full Stack Developer from Ahmedabad, India. Building performant, elegant web apps." />
-          <meta property="og:url" content="https://raushankumar-dev.vercel.app" />
-          <meta property="og:site_name" content="Raushan Kumar Portfolio" />
+          <meta property="og:title" content="Muhammad Fawwaz Perdana | Full Stack Developer" />
+          <meta property="og:description" content="Full Stack Developer from Lampung, Indonesia. Building performant, elegant web apps." />
+          <meta property="og:url" content="https://portfoliofwazzr.netlify.app/" />
+          <meta property="og:site_name" content="Muhammad Fawwaz Perdana Portfolio" />
 
           {/* Twitter */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Raushan Kumar | Full Stack Developer" />
-          <meta name="twitter:description" content="Full Stack Developer from Ahmedabad, India. Building performant, elegant web apps." />
-          <meta name="twitter:creator" content="@RaushanKum68222" />
+          <meta name="twitter:title" content="Muhammad Fawwaz Perdana | Full Stack Developer" />
+          <meta name="twitter:description" content="Full Stack Developer from Lampung, Indonesia. Building performant, elegant web apps." />
+          <meta name="twitter:creator" content="." />
 
           {/* Canonical */}
-          <link rel="canonical" href="https://raushankumar-dev.vercel.app" />
+          <link rel="canonical" href="https://portfoliofwazzr.netlify.app/" />
         </Helmet>
 
         <ScrollProgress />

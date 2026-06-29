@@ -26,7 +26,7 @@ export const PERSONAL = {
   tagline: 'React Craftsman',
   bio: 'I craft performant, elegant web apps — from pixel-perfect frontends to scalable backend systems. Based in Metro-Lampung, building for the world.',
   email: 'fawazadvan23@gmail.com',
-  location: 'Ahmedabad, India',
+  location: 'Metro - Lampung, Indonesia',
   resumeUrl: '',
   resumeStatus: 'Updated',
 };

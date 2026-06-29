@@ -11,14 +11,14 @@ const timelineData = [
     desc: 'Mastered the MERN stack and advanced frontend architectures. Focusing on performance and production-ready deployments.',
   },
   {
-    year: '2024',
+    year: '2025',
     title: 'Full Stack Engineering',
     category: 'learning',
     icon: <FaRocket />,
     desc: 'Dived deep into Node.js, Express, and MongoDB. Built multiple real-world applications and clones to sharpen architectural skills.',
   },
   {
-    year: '2023',
+    year: '2025',
     title: 'Frontend Foundations',
     category: 'learning',
     icon: <FaGraduationCap />,

@@ -29,8 +29,8 @@ export const socialLinks = [
 ];
 
 export const contactInfo = {
-  email: 'raushan.singh.cg@gmail.com',
-  location: 'Ahmedabad, India',
+  email: 'fawazadvan23@gmail.com',
+  location: 'Metro, Lampung - Indonesia',
   availability: 'Open to Work',
   roles: ['Full-Time', 'Internship', 'Freelance', 'Remote'],
 };

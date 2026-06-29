@@ -1,23 +1,48 @@
 export const projects = [
   // ========== UI CLONES (6) ==========
+  
   {
     id: 1,
-    title: 'Ethena UI Clone',
-    category: 'ui-clone',
-    description: 'High-fidelity recreation of Ethena\'s sophisticated DeFi dashboard. Features real-time synthetic dollar analytics, yield charts, and minimalist industrial design.',
-    techStack: ['HTML5', 'CSS3'],
+    title: 'WikiAOT',
+    category: 'Learn-self',
+    description: 'WikiAOT is a fan-made web application inspired by the Attack on Titan series. It provides comprehensive information about characters, Titans, story arcs, and the world of the series in a clean and user-friendly interface. The project was built to practice frontend development while delivering an organized anime encyclopedia for fans.',
+    techStack: ['HTML5', 'Learn-Self Practice'],
     status: 'live',
-    thumbnail: '/ethena_ui_clone_1_1776006662065.png',
-    thumbnailHover: '/ethena_ui_clone_2_1776006686945.png',
+    thumbnail: '/Aot.jpg',
+    thumbnailHover: '/Aot.jpg',
     links: {
-      live: 'https://ethenaclone-by-raushankumar.netlify.app/',
-      github: 'https://github.com/Raushankumar0720/Ethena-Clone',
-      youtube: 'https://youtu.be/DqeaifbGOuk',
-      figma: 'https://www.figma.com/community/file/ethena_clone',
+      github: 'https://github.com/FawwazTzy/WikiAOT.git',
     },
   },
   {
     id: 2,
+    title: 'Efrogmer',
+    category: ['Web-Based Game'],
+    description: 'EFROGMER (English Frog Memory) is a web-based vocabulary learning media designed to help junior high school students improve their English vocabulary through interactive, game-based learning activities. It combines educational content with engaging digital features to create an enjoyable, meaningful, and effective learning experience.',
+    techStack: ['fullstack', "Bachelor's Thesis"],
+    status: 'live',
+    thumbnail: '/Efrogmer desc.png',
+    thumbnailHover: '/Efrogmer desc.png',
+    links: {
+      github: 'https://github.com/FawwazTzy/Efrogmer.git',
+    },
+  },
+  {
+    id: 3,
+    title: 'Gading (Garena Reading)',
+    category: ['Web-Based Game', 'For Article Journal'],
+    description: 'GADING (Garena Reading) is a web-based educational game developed to improve students English reading comprehension through interactive and gamified learning activities. The platform presents engaging reading materials, quizzes, and instant feedback to create an enjoyable learning experience while encouraging students to develop their reading skills and motivation.',
+    techStack: ['fullstack', 'Article Journal'],
+    status: 'live',
+    thumbnail: '/Gading desc.png',
+    thumbnailHover: '/Gading desc.png',
+    links: {
+      live: 'https://garenareading1.netlify.app/',
+      github: 'https://github.com/FawwazTzy/Gading.io_Education.git',
+    },
+  },
+  {
+    id: 4,
     title: 'Bevel UI Clone',
     category: 'ui-clone',
     description: 'Premium e-commerce landing page for Bevel grooming products. Clean, earth-toned design with focused product showcases and elegant typography.',
@@ -28,12 +53,11 @@ export const projects = [
     links: {
       live: 'https://shave-clone-by-raushankumar.netlify.app/',
       github: 'https://github.com/Raushankumar0720/Bevel-Clone',
-      youtube: 'https://youtu.be/BD47qUWGgIY',
       figma: 'https://www.figma.com/community/file/bevel_clone',
     },
   },
   {
-    id: 3,
+    id: 5,
     title: 'LiveCoinWatch Clone',
     category: 'ui-clone',
     description: 'Real-time cryptocurrency tracking platform. Multi-coin rankings, interactive candlestick charts, and market overview dashboards with live updates.',
@@ -44,11 +68,10 @@ export const projects = [
     links: {
       live: 'https://livecoinwatch-clone-by-raushankumar.netlify.app/',
       github: 'https://github.com/Raushankumar0720/LiveCoin-Clone',
-      youtube: 'https://youtu.be/OcSvDbHuSr0',
     },
   },
   {
-    id: 4,
+    id: 6,
     title: 'Kiwi-Kisan UI Clone',
     category: 'ui-clone',
     description: 'Modern agricultural marketplace platform. Fresh, organic UI with product categories for fruits and vegetables, designed for trust and accessibility.',
@@ -59,11 +82,10 @@ export const projects = [
     links: {
       live: 'https://youtu.be/OcSvDbHuSr0',
       github: 'https://github.com/Raushankumar0720/Kiwi-Kisan',
-      youtube: 'https://youtu.be/0aGW0kzUqh0',
     },
   },
   {
-    id: 5,
+    id: 7,
     title: 'Keychron UI Clone',
     category: 'ui-clone',
     description: 'Sleek mechanical keyboard e-commerce store. High-end product photography, technical spec breakdowns, and intuitive selection filters.',
@@ -78,7 +100,7 @@ export const projects = [
     },
   },
   {
-    id: 6,
+    id: 8,
     title: 'Kore.ai UI Clone',
     category: 'ui-clone',
     description: 'Enterprise-grade conversational AI platform landing page. Sophisticated SaaS layout with dashboard previews and interactive AI flow visualizations.',
@@ -95,7 +117,7 @@ export const projects = [
 
   // ========== FRONTEND (3) ==========
   {
-    id: 7,
+    id: 9,
     title: 'TaskFlow',
     category: 'frontend',
     description: 'Smart task manager with drag-and-drop reordering, priority levels, categories, subtask trees, and persistent local storage. Built for real productivity.',
@@ -105,11 +127,10 @@ export const projects = [
     links: {
       live: 'https://taskflow-app-demo.netlify.app',
       github: 'https://github.com/Raushankumar0720/TaskFlow',
-      youtube: 'https://youtube.com/watch?v=demo1',
     },
   },
   {
-    id: 8,
+    id: 10,
     title: 'TypeSprint',
     category: 'frontend',
     description: 'Competitive typing speed test with live WPM & accuracy tracking, multiple difficulty modes, custom text upload, and performance history charts.',
@@ -119,11 +140,10 @@ export const projects = [
     links: {
       live: 'https://typesprint-demo.netlify.app',
       github: 'https://github.com/Raushankumar0720/TypeSprint',
-      youtube: 'https://youtube.com/watch?v=demo2',
     },
   },
   {
-    id: 9,
+    id: 11,
     title: 'WeatherPulse',
     category: 'frontend',
     description: 'Beautiful weather dashboard with 5-day forecasts, interactive maps, city search, and data visualization. Powered by OpenWeather API.',
@@ -139,7 +159,7 @@ export const projects = [
 
   // ========== BACKEND (2) ==========
   {
-    id: 10,
+    id: 12,
     title: 'AuthGuard API',
     category: 'backend',
     description: 'Production-ready authentication API with JWT tokens, refresh token rotation, role-based access control, rate limiting, and email verification.',
@@ -154,7 +174,7 @@ export const projects = [
     },
   },
   {
-    id: 11,
+    id: 13,
     title: 'BlogEngine API',
     category: 'backend',
     description: 'Full-featured blog REST API with CRUD operations, tag/category filtering, search, pagination, image upload, and Redis caching layer.',
@@ -171,7 +191,7 @@ export const projects = [
 
   // ========== FULL STACK / MERN (2) ==========
   {
-    id: 12,
+    id: 14,
     title: 'NexCart',
     category: 'fullstack',
     description: 'End-to-end e-commerce platform with product catalog, cart system, user auth, order tracking, Stripe payments, and admin dashboard.',
@@ -186,7 +206,7 @@ export const projects = [
     },
   },
   {
-    id: 13,
+    id: 15,
     title: 'ChatSphere',
     category: 'fullstack',
     description: 'Real-time chat application with public rooms, private DMs, file sharing, typing indicators, read receipts, online presence, and push notifications.',
@@ -202,7 +222,7 @@ export const projects = [
   },
   // ========== GAMES (1) ==========
   {
-    id: 14,
+    id: 16,
     title: 'Space Invaders Retro',
     category: 'games',
     description: 'A classic arcade-style Space Invaders game built with React and Canvas API. Features wave-based difficulty, score tracking, and retro sound effects.',
@@ -212,7 +232,21 @@ export const projects = [
     links: {
       live: 'https://raushan-space-invaders.netlify.app',
       github: 'https://github.com/Raushankumar0720/Space-Invaders-React',
-      youtube: 'https://youtu.be/example_game',
+    },
+  },
+  {
+    id: 17,
+    title: 'Ethena UI Clone',
+    category: 'ui-clone',
+    description: 'High-fidelity recreation of Ethena\'s sophisticated DeFi dashboard. Features real-time synthetic dollar analytics, yield charts, and minimalist industrial design.',
+    techStack: ['HTML5', 'CSS3'],
+    status: 'live',
+    thumbnail: '/ethena_ui_clone_1_1776006662065.png',
+    thumbnailHover: '/ethena_ui_clone_2_1776006686945.png',
+    links: {
+      live: 'https://ethenaclone-by-raushankumar.netlify.app/',
+      github: 'https://github.com/Raushankumar0720/Ethena-Clone',
+      figma: 'https://www.figma.com/community/file/ethena_clone',
     },
   },
 ];

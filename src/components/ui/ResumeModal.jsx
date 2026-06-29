@@ -23,7 +23,7 @@ export default function ResumeModal({ isOpen, onClose, resumeUrl }) {
             <div className="resume-header-actions">
               <a 
                 href={resumeUrl} 
-                download="Raushan_Kumar_Resume.pdf" 
+                download="Muhammad Fawwaz Perdana.pdf" 
                 className="resume-download-btn"
                 title="Download PDF"
               >
@@ -49,7 +49,7 @@ export default function ResumeModal({ isOpen, onClose, resumeUrl }) {
           </div>
 
           <div className="resume-modal-footer">
-            <p className="mono">Raushan Kumar | Full Stack Developer</p>
+            <p className="mono">Muhammad Fawwaz Perdana | Full Stack Developer</p>
           </div>
         </motion.div>
       </div>
