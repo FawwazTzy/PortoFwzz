@@ -35,8 +35,12 @@ export default function Contact() {
       setFormData({ name: '', email: '', subject: '', message: '' });
       setTimeout(() => setIsSubmitted(false), 5000);
     } catch (error) {
-      console.error('EmailJS Error:', error);
-      alert('Failed to send message. Please try again or contact me directly via email.');
+      console.error("EmailJS Error:", error);
+      console.log("Status:", error.status);
+      console.log("Text:", error.text);
+
+      alert(error.text || "Failed to send message.");
+
     } finally {
       setIsLoading(false);
     }
