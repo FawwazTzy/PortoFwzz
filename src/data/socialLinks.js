@@ -10,7 +10,7 @@ export const socialLinks = [
   },
   {
     name: 'WhatsApp',
-    url: 'https://wa.me/6281234567890?text=Hello%20Fawwaz,%20I%20visited%20your%20portfolio.',
+    url: 'https://wa.me/62895705112267?text=Hi%20Fawwaz,%20I%20found%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project%20with%20you.',
     icon: FaWhatsapp,
     label: 'WA',
   },
